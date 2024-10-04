@@ -1,0 +1,118 @@
+.header { /* for header*/
+    text-align: center; /* center align text in the header */
+    padding: 20px; /* add padding around the header */
+    background-color: #687868; 
+    color: white; 
+}
+
+.profile-photo { /* for profile image */
+    float: right; /* Float the profile photo to the right */
+    width: 300px; 
+    height: auto;
+    border-radius: 50%; /* make the image circular */
+    margin: 10px; 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); /* add shadow effect */
+    border: 3px solid #788c78; 
+}
+
+.menu-bar { /* for menu bar */
+    background-color: #687868; 
+    padding: 10px; /* add padding around the menu bar */
+}
+
+.menu-bar ul { /* selects the unordered list within the menu bar for styling */
+    display: flex;
+    list-style-type: none; /* remove bullet points from list */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+    justify-content: center; /* center the menu items */
+}
+
+.menu-bar li { /* styles for each list item in the menu bar */
+    margin: 0 20px; /* add horizontal margin between menu items */
+}
+
+.menu-bar a { /* styles for the links within the menu bar */
+    color: white;
+    text-decoration: none; /* remove underline from links */
+    font-weight: bold; /* make the link text bold */
+}
+.menu-bar a:hover { /* effect for menu links */
+    text-decoration: underline; /* underline on hover */
+}
+
+main { /* for the main */
+    padding: 20px; /* add padding around main content */
+    max-width: 800px; 
+    margin-left: 20px; 
+    background-color: rgb(255, 252, 252);
+    border-radius: 5px; /* Round corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.me { /* for about me */
+    background-color: #ccc7c5; 
+    padding: 20px; 
+    border-radius: 5px; 
+    border: 3px solid #788c78; /* add border */
+}
+
+.hobby { /* for hobbies section */
+    display: flex;
+    flex-direction: row-reverse; /* arrange items in reverse row order */
+    flex-wrap: wrap; /* allow wrapping of items */
+    align-items: center; /* align items vertically */
+    margin: 10px; 
+}
+
+.hobby img { /* for hobbies images */
+    margin-top: 10px; 
+    margin-bottom: 20px; /* add bottom margin */
+    margin-left: 20px; 
+    margin-right: 20px; 
+    border: 3px solid #788c78; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* round corners of images */
+}
+
+.hobby-text { /* for hobbies texts */
+    display: flex; 
+    flex-grow: 1; /* allow text to grow */
+    text-align: left; /* align text to the left */
+    margin-right: 10px;
+    max-width: calc(100% - 120px); /* limit width of text */
+    font-size: 20px; 
+}
+
+.form { /* for form*/
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(135, 15, 15, 0.1); 
+    max-width: 300px;
+    margin: 20px; 
+}
+
+.project { /* for my previous project */
+    background-color: #ccc7c5; 
+    padding: 20px; 
+    border-radius: 5px; 
+    border: 3px solid #788c78;
+}
+
+.future { /* for future aspirations */
+    background-color: #ccc7c5; 
+    padding: 20px; /* Padding inside the section */
+    border-radius: 5px; 
+    border: 3px solid #788c78; 
+}
+.footer{
+    display: flex;             
+    justify-content: center;   
+    align-items: center;     
+    height: 100px;            
+    background-color: #f1f1f1; 
+    padding: 20px;   
+    font-size: 40px;        
+    
+}
