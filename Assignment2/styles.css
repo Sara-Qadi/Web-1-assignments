@@ -1,4 +1,4 @@
-.header { /* for header*/
+.header { /* for header */
     text-align: center; /* center align text in the header */
     padding: 20px; /* add padding around the header */
     background-color: #687868; 
@@ -6,7 +6,7 @@
 }
 
 .profile-photo { /* for profile image */
-    float: right; /* Float the profile photo to the right */
+    float: right; /* float to the right */
     width: 300px; 
     height: auto;
     border-radius: 50%; /* make the image circular */
@@ -37,6 +37,7 @@
     text-decoration: none; /* remove underline from links */
     font-weight: bold; /* make the link text bold */
 }
+
 .menu-bar a:hover { /* effect for menu links */
     text-decoration: underline; /* underline on hover */
 }
@@ -66,10 +67,9 @@ main { /* for the main */
 }
 
 .hobby img { /* for hobbies images */
-    margin-top: 10px; 
-    margin-bottom: 20px; /* add bottom margin */
-    margin-left: 20px; 
-    margin-right: 20px; 
+    width: 400px; /* Set width */
+    height: 300px; /* Set height */
+    margin: 10px; 
     border: 3px solid #788c78; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px; /* round corners of images */
@@ -106,7 +106,8 @@ main { /* for the main */
     border-radius: 5px; 
     border: 3px solid #788c78; 
 }
-.footer{
+
+.footer { /* Footer styles */
     display: flex;             
     justify-content: center;   
     align-items: center;     
@@ -114,5 +115,4 @@ main { /* for the main */
     background-color: #f1f1f1; 
     padding: 20px;   
     font-size: 40px;        
-    
 }
